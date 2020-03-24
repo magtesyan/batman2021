@@ -1,0 +1,15 @@
+.search {
+  display: grid;
+  grid-template-columns: 1fr 60px;
+  align-items: center;
+}
+
+.search__textfield {
+  background: rgba(196, 196, 196, 0.5);
+  border-radius: 5px;
+  padding: 12px 18px;
+  border: 0;
+  color: #aeaeae;
+  font-size: 14px;
+  line-height: 16px;
+}

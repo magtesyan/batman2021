@@ -4,9 +4,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Бэтмен 2021</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap&subset=cyrillic" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
-
+  <body class="page-body">
+    <div class="page-body__wrapper">
+      <header class="page-body__header header">
+        <div class="header__logo">КиноПульс</div>
+        <form class="header__search search">
+          <input class="search__textfield" type="search" placeholder="Фильмы, сериалы, актеры">
+          <button class="search__button search-button" type="submit">
+            <img class="search-button__icon" src="img/search-icon.svg" alt="Поиск">
+          </button>
+        </form>
+        <div class="header__user-nav user-nav">
+          <img class="user-nav__bookmark-icon" src="img/bookmark.svg" alt="Добавить в закладки">
+          <img class="user-nav__avatar" src="img/avatar.jpg" alt="Аватар">
+        </div>
+      </header>
+    </div>
   </body>
 </html>

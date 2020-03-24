@@ -1,0 +1,13 @@
+.header {
+  display: grid;
+  grid-template-columns: 175px 1fr 130px;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+}
+
+.header__logo {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+}
