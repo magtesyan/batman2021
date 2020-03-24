@@ -10,8 +10,6 @@
     "build": "gulp build",
     "start": "gulp start"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "^1.0.0",
     "autoprefixer": "^9.7.4",
