@@ -42,5 +42,8 @@
   "engines": {
     "node": ">=12.13"
   },
-  "dependencies": {}
+  "dependencies": {
+    "stylelint-config-sass-guidelines": "^7.0.0",
+    "stylelint-scss": "^3.16.0"
+  }
 }
