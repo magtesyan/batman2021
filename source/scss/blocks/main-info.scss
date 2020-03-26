@@ -1,0 +1,25 @@
+.main-info {
+  display: grid;
+  grid-template-columns: 1fr min-content;
+}
+
+.main-info__subscribe {
+  margin-left: 78px;
+}
+
+.main-info__article p {
+  font-size: 16px;
+  line-height: 140%;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.main-info__heading {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 140%;
+  margin-top: 33px;
+  margin-bottom: 23px;
+}

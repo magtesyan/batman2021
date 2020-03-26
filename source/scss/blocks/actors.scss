@@ -1,0 +1,19 @@
+.actors {
+  list-style: none;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+  padding-left: 15px;
+}
+
+.actors__item {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration-line: underline;
+}
+
+.actors__item:first-child {
+  margin-top: 10px;
+}

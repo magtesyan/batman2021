@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: 1fr 150px;
   align-items: center;
-  margin-top: 39px;
 }
 
 .info__content {
@@ -34,31 +33,32 @@
   margin-left: 33px;
   color: #ffffff;
   text-decoration: none;
-}
 
-.info__trailer::before {
-  content: "";
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 15px;
-  width: 31px;
-  height: 31px;
-  background: url("../img/play.svg") no-repeat center left;
+  &::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+    width: 31px;
+    height: 31px;
+    background: url("../img/play.svg") no-repeat center left;
+  }
 }
 
 .info__more {
   @extend %info-text;
   color: #ffffff;
   text-align: right;
-}
+  text-decoration: none;
 
-.info__more::after {
-  content: "";
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 15px;
-  width: 31px;
-  height: 31px;
-  background: url("../img/play.svg") no-repeat top left;
-  transform: rotate(90deg);
+  &::after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+    width: 31px;
+    height: 31px;
+    background: url("../img/play.svg") no-repeat top left;
+    transform: rotate(90deg);
+  }
 }

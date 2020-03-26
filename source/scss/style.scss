@@ -1,3 +1,15 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 ::-webkit-input-placeholder { /* Chrome */
   color: #aeaeae;
 }
@@ -16,10 +28,18 @@
   opacity: 1;
 }
 
+@import "blocks/actors";
+@import "blocks/content";
 @import "blocks/header";
 @import "blocks/info";
+@import "blocks/large-info";
 @import "blocks/main";
+@import "blocks/main-info";
+@import "blocks/nav";
+@import "blocks/nav-list";
 @import "blocks/page-body";
 @import "blocks/search";
 @import "blocks/search-button";
+@import "blocks/short-info";
+@import "blocks/subscribe";
 @import "blocks/user-nav";
