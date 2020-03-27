@@ -23,3 +23,13 @@
   margin-top: 33px;
   margin-bottom: 23px;
 }
+
+@media (max-width: 950px) {
+  .main-info {
+    grid-template-columns: 1fr;
+  }
+
+  .main-info__subscribe {
+    margin: auto;
+  }
+}

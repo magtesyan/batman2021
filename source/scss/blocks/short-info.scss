@@ -16,3 +16,16 @@
 .short-info__actors {
   margin-top: 30px;
 }
+
+@media (max-width: 575px) {
+  .short-info__poster {
+    width: 100%;
+    height: 100%;
+  }
+
+  .short-info__look-btn {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+}

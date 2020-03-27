@@ -6,3 +6,9 @@
 .nav__list {
   margin-right: 55px;
 }
+
+@media (max-width: 575px) {
+  .nav__icon-bookmark {
+    display: none;
+  }
+}

@@ -13,3 +13,9 @@
   font-size: 14px;
   line-height: 16px;
 }
+
+@media (max-width: 575px) {
+  .search {
+    grid-template-columns: 1fr min-content;
+  }
+}

@@ -17,3 +17,9 @@
 .actors__item:first-child {
   margin-top: 10px;
 }
+
+@media (max-width: 575px) {
+  .actors {
+    display: none;
+  }
+}

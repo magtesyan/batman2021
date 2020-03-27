@@ -3,3 +3,9 @@
   border: 0;
   padding: 10px 18px 10px 18px;
 }
+
+@media (max-width: 575px) {
+  .search-button {
+    padding: 10px 10px 10px 18px;
+  }
+}

@@ -62,3 +62,19 @@
     transform: rotate(90deg);
   }
 }
+
+@media (max-width: 730px) {
+  .info__more {
+    display: none;
+  }
+
+  .info__content {
+    grid-row-gap: 20px;
+    grid-template-columns: min-content max-content;
+  }
+
+  .info__trailer {
+    margin-left: 0;
+    grid-column: 1 / 3;
+  }
+}

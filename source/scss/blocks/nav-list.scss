@@ -15,3 +15,25 @@
     color: #ff8f27;
   }
 }
+
+@media (max-width: 950px) {
+  .nav-list {
+    grid-template-columns: repeat(4, min-content);
+  }
+
+  .nav-list__item {
+    text-align: left;
+  }
+}
+
+@media (max-width: 730px) {
+  .nav-list {
+    grid-template-columns: repeat(2, min-content);
+  }
+}
+
+@media (max-width: 575px) {
+  .nav-list {
+    grid-template-columns: repeat(1, min-content);
+  }
+}
