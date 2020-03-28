@@ -36,7 +36,7 @@
           <a class="info__more" href="#">Подробнее</a>
         </div>
 
-        <div class="main__content content">
+        <div class="main__content content hidden">
           <div class="content__short-info short-info">
             <img class="short-info__poster" src="img/cover.png" width="184" height="260" alt="Постер фильма">
             <a class="short-info__look-btn" href="#">Буду смотреть</a>
@@ -56,13 +56,13 @@
           <div class="content__large-info large-info">
             <nav class="large-info__nav nav">
               <ul class="nav__list nav-list">
-                <li class="nav-list__item nav-list__item_active">Описание</li>
-                <li class="nav-list__item">Рецензии</li>
-                <li class="nav-list__item">Премьеры</li>
-                <li class="nav-list__item">Актеры</li>
-                <li class="nav-list__item">Награды</li>
-                <li class="nav-list__item">Факты</li>
-                <li class="nav-list__item">Сайты</li>
+                <li><a class="nav-list__item nav-list__item_active" href="#" id="about">Описание</a></li>
+                <li><a class="nav-list__item" href="#" id="review">Рецензии</a></li>
+                <li><a class="nav-list__item" href="#" id="premiere">Премьеры</a></li>
+                <li><a class="nav-list__item" href="#" id="actors">Актеры</a></li>
+                <li><a class="nav-list__item" href="#" id="rewards">Награды</a></li>
+                <li><a class="nav-list__item" href="#" id="facts">Факты</a></li>
+                <li><a class="nav-list__item" href="#" id="sites">Сайты</a></li>
               </ul>
               <a class="nav__icon-bookmark" href="#">
                 <img src="img/bookmark-orange.svg" alt="Добавить в закладки">
@@ -70,13 +70,31 @@
             </nav>
 
             <div class="large-info__main-info main-info">
-              <article class="main-info__article">
+              <article class="main-info__article main-info__article_about">
                 <p>Предстоящий американский супергеройский фильм, основанный на одноимённых комиксах издательства DC Comics. Картина будет выпущена компанией Warner Bros. и будет перезагрузкой всех фильмов о Бэтмене.</p>
                 <p>Фильм является десятым по счёту фильмом из Расширенной вселенной DC. Режиссёром и сценаристом фильма выступит Мэтт Ривз, а главную роль исполнит Роберт Паттинсон</p>
                 <h2 class="main-info__heading">Разработка</h2>
                 <p>В октябре 2014 года студия Warner Bros. объявила, что в разработке находится сольный фильм о Бэтмене, роль которого вновь исполнит Бен Аффлек. В июле 2015 года сообщалось, что Аффлек ведёт переговоры со студией по поводу постановки фильма и совместного написания сценария с Джеффом Джонсом. </p>
                 <p>После выхода фильма «Бэтмен против Супермена: На заре справедливости» руководитель агентства WME Патрик Уайтсел подтвердил, что Аффлек написал сценарий для сольного фильма о Бэтмене и в настоящий момент его рассматривают студия и DC. В мае 2016 года Джереми Айронс подтвердил, что он появится в фильме про Тёмного Рыцаря. </p>
                 <p>На Comic-Con в Сан-Диего в июле 2016 года было официально подтверждено, что Аффлек станет режиссёром картины. В августе 2016 года на одной из страниц Аффлека в социальных сетях был опубликован тестовый материал, в котором был показан персонаж Детстроук. 8 сентября 2016 года Джефф Джонс подтвердил, что Джо Манганьелло сыграет наёмника Слейда Уилсона, который, возможно, станет главным злодеем фильма.</p>
+              </article>
+              <article class="main-info__article main-info__article_review hidden">
+                <p>Список рецензий</p>
+              </article>
+              <article class="main-info__article main-info__article_premiere hidden">
+                <p>Список премьер</p>
+              </article>
+              <article class="main-info__article main-info__article_actors hidden">
+                <p>Список актеров</p>
+              </article>
+              <article class="main-info__article main-info__article_rewards hidden">
+                <p>Список наград</p>
+              </article>
+              <article class="main-info__article main-info__article_facts hidden">
+                <p>Список фактов</p>
+              </article>
+              <article class="main-info__article main-info__article_sites hidden">
+                <p>Список сайтов</p>
               </article>
               <div class="main-info__subscribe subscribe">
                 <form class="subscribe__form">
@@ -93,5 +111,11 @@
         </div>
       </main>
     </div>
+
+    <section class="modal modal_trailer hidden">
+      <iframe src="https://www.youtube.com/embed/Xo8i2ZDMlQg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" id="play" allowfullscreen></iframe>
+    </section>
+
+    <script src="js/main.min.js"></script>
   </body>
 </html>

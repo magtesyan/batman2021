@@ -35,6 +35,7 @@ ul {
 @import "blocks/large-info";
 @import "blocks/main";
 @import "blocks/main-info";
+@import "blocks/modal";
 @import "blocks/nav";
 @import "blocks/nav-list";
 @import "blocks/page-body";
@@ -43,3 +44,7 @@ ul {
 @import "blocks/short-info";
 @import "blocks/subscribe";
 @import "blocks/user-nav";
+
+.hidden {
+  display: none;
+}
